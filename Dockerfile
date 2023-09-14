@@ -17,4 +17,4 @@ ARG JAR_FILE=target/consultorjava-openshift-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} /tmp
 
 # Run the jar file
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/consultorjava-openshift-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/tmp/consultorjava-openshift-0.0.1-SNAPSHOT.jar"]
