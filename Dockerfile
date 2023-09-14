@@ -1,6 +1,6 @@
 # Start with a base image containing Java runtime
 #FROM openjdk:8-jdk-alpine
-FROM registry.access.redhat.com/ubi8/openjdk-17:1.14
+FROM registry.access.redhat.com/ubi8/openjdk-8
 # Add Maintainer Info
 LABEL maintainer="jbugarin@consultorjava.com"
 
